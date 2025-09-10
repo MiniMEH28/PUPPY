@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="El(gd:,C:6.qo2Uo=G2^">Hunger</variable></variables><block type="device_button_event" id="%AQ+H{hf#P7;(#EM2_}I" x="492" y="-177"><field name="NAME">Button.B</field></block><block type="pxt-on-start" id="AT.UoLw`2w$5`dbS~d4L" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="lPQGCd`d,pvGA7A]NJ=F"><field name="VAR" id="El(gd:,C:6.qo2Uo=G2^">Hunger</field><value name="VALUE"><shadow type="math_number" id="6G7o(|oAJb:%[7uX7qNz"><field name="NUM">2</field></shadow></value><next><block type="device_show_leds" id="f+hDM-ITdyjeG1`eh;ro"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . # . . 
+        . # # # . 
+        . . . . .
+        `</field></block></next></block></statement></block><block type="device_button_event" id="V.2HoczZeVr%cuV=GQy4" x="298" y="14"><field name="NAME">Button.AB</field></block><block type="device_button_event" id="OyI=+j.5EsNTyTaFMo_." x="233" y="156"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="$:X[gK#6s,X1z2%rE,1H"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . . # . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="mHNZwJ%)OB/tNfl1bXZ-"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . # . . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="variables_change" id="Ctd]5qAFmz7JmqJD%uD`"><field name="VAR" id="El(gd:,C:6.qo2Uo=G2^">Hunger</field><value name="VALUE"><shadow type="math_number" id="u6~UHh=,7Bh1OQ0YCX,b"><field name="NUM">1</field></shadow></value></block></next></block></next></block></statement></block><block type="device_forever" id="--/+JvIrNVUB{q(y0@R^" x="-278" y="256"><statement name="HANDLER"><block type="variables_change" id="aLs0rD83FFS0!C$`D%a8"><field name="VAR" id="El(gd:,C:6.qo2Uo=G2^">Hunger</field><value name="VALUE"><shadow type="math_number" id="9:RL!#Ml2R7Ca*#G7e73"><field name="NUM">-1</field></shadow></value></block></statement></block></xml>
